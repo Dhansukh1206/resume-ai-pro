@@ -1,6 +1,6 @@
 export async function analyzeResume(formData) {
   try {
-    const response = await fetch("http://localhost:5050/analyze", {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/analyze`, {
       method: "POST",
       body: formData,
     });
