@@ -70,6 +70,10 @@ app.post("/analyze", upload.single("resume"), async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.listen(5050, () =>
   console.log("Test Worker running on port 5050 (Dummy Mode)"),
 );
