@@ -7,6 +7,6 @@ export async function analyzeResume(formData) {
 
     return await response.json();
   } catch (error) {
-    return { error: "Failed to connect to analysis service" };
+    return { error: "Failed to connect to analysis service." };
   }
 }
