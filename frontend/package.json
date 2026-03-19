@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "20.15.1"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",
